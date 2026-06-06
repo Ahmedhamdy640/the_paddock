@@ -8,6 +8,7 @@
     "scheme": "thepaddock",
     "userInterfaceStyle": "automatic",
     "ios": {
+      "bundleIdentifier": "com.ahmedhamdy77.thepaddock",
       "icon": "./assets/expo.icon"
     },
     "android": {
@@ -17,7 +18,8 @@
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.ahmedhamdy77.thepaddock"
     },
     "web": {
       "output": "static",
