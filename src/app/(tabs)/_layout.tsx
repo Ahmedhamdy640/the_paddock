@@ -14,7 +14,6 @@ export default function TabsLayout() {
         tabBarActiveTintColor: colors.accent,
         tabBarInactiveTintColor: colors.textMuted,
         tabBarLabelStyle: {
-          fontFamily: typography.caption.fontFamily,
           fontSize: 10,
           fontWeight: '700',
           letterSpacing: 1,
@@ -24,9 +23,9 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="(feed)"
         options={{
-          title: 'FEED',
+          title: 'HOME',
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="list" size={size} color={color} />
+            <Ionicons name="home" size={size} color={color} />
           ),
         }}
       />
