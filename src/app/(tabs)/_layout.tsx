@@ -21,7 +21,7 @@ export default function TabsLayout() {
       }}
     >
       <Tabs.Screen
-        name="(feed)"
+        name="(home)"
         options={{
           title: 'HOME',
           tabBarIcon: ({ color, size }) => (
@@ -30,20 +30,29 @@ export default function TabsLayout() {
         }}
       />
       <Tabs.Screen
-        name="(standings)"
+        name="(series)"
         options={{
-          title: 'STANDINGS',
+          title: 'SERIES',
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="trophy" size={size} color={color} />
+            <Ionicons name="car" size={size} color={color} />
           ),
         }}
       />
       <Tabs.Screen
-        name="(more)"
+        name="(ai)"
         options={{
-          title: 'MORE',
+          title: 'AI',
           tabBarIcon: ({ color, size }) => (
-            <Ionicons name="menu" size={size} color={color} />
+            <Ionicons name="sparkles" size={size} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="(profile)"
+        options={{
+          title: 'PROFILE',
+          tabBarIcon: ({ color, size }) => (
+            <Ionicons name="person" size={size} color={color} />
           ),
         }}
       />
